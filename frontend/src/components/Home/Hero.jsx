@@ -15,7 +15,7 @@ function Hero() {
           Uncover captivating stories, enriching knowledge, and endless inspiration in our curated collection of books.
         </p>
         <div className="mt-8">
-          <Link className="text-yellow-100 text-xl lg:text-2xl font-semibold border border-yellow-100 px-8 py-3 rounded-full transition duration-300 hover:bg-yellow-100 hover:text-zinc-900 shadow-lg">
+          <Link   to="/all-books" className="text-yellow-100 text-xl lg:text-2xl font-semibold border border-yellow-100 px-8 py-3 rounded-full transition duration-300 hover:bg-yellow-100 hover:text-zinc-900 shadow-lg">
             Discover Books
           </Link>
         </div>

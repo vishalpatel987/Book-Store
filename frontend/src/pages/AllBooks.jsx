@@ -14,7 +14,7 @@ function AllBooks() {
   }, [])
 
   return (
-    <div className=' px-12 py-8 bg-zinc-900 h-screen'>
+    <div className=' px-12 py-8 bg-zinc-900 min-h-screen'>
         {" "}
         <h4 className='text-3xl text-yellow-100'>All books</h4>
         {!Data && <div className='flex items-center justify-center my-8'><Loder /></div>}

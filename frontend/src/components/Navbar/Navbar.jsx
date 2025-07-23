@@ -35,7 +35,7 @@ function Navbar() {
             src="https://cdn-icons-png.flaticon.com/128/10433/10433049.png"
             alt="logo"
           />
-          <h1 className="text-2xl font-semibold">bookByVishal</h1>
+          <h1 className="text-2xl font-semibold">book By Vishal</h1>
         </Link>
 
         {/* Desktop Links */}
