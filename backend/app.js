@@ -10,6 +10,10 @@ const books = require("./router/books");
 const faverate = require("./router/faverateBook")
 const cart = require("./router/cart")
 const order = require("./router/order")
+const paymentRoute = require('./router/payment');
+app.use('/api/payment', paymentRoute);
+
+
 app.use(cors())
 
 app.use(express.json());
